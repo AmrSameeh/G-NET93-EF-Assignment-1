@@ -20,7 +20,7 @@ namespace ReadMoreBooks
                             "Database created successfully!");
 
                         Console.WriteLine(
-                            $"Database Name: {context.Database.GetDbConnection().Database}");
+                            $"Database Name: {context.Database.GetDbConnection().Database}"); 
 
                         Console.WriteLine(
                             $"Books Table: {context.Books.Count()}");
